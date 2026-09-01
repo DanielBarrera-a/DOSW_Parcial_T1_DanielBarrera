@@ -22,11 +22,11 @@ DOSW-ParcialT1
 
 ## Evidencias — prerrequisitos
 
-### Acceso a herramienta de modelado (Lucidchart / Draw.io / Miro)
-<img src="">
+### Acceso a herramienta de modelado (Miro)
+<img src="docs/images/evidenciaMiro.png" width="600">
 
 ### Acceso a Figma
-<img src="">
+<img src="docs/images/evidenciaFigma.png" width="600">
 
 ### El proyecto corre correctamente con Maven
-<img src="">
+<img src="docs/images/evidenciaMaven.png" width="600">
