@@ -36,5 +36,5 @@ DOSW-ParcialT1
 
 ## Mision # 1
 
-<img src="">
+<img src="https://github.com/DanielBarrera-a/DOSW_Parcial_T1_DanielBarrera/blob/35b6bfa11275c1de5c01d76b8d67d48285aa84c7/docs/images/evidenciaDiagramaContexto.png">
 
