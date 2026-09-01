@@ -71,3 +71,10 @@ Este requerimiento debe ser aplicado con el patron de diseño El Chain of Respon
 ### Para el requerimeinto funciona numeor 2
 
 Este requerimiento debe utilizar el patron de daptar ya que al manejar diferentes sistemas de pago y que cada uno maneje su infromacion relevante propia necesitamos un adapter para tranformar esa informacion de las diferentes plataformas de pago en infromacion relevante para nosotros y vicebersa
+
+## Mision numero 3
+### Diagrama de caso de uso:
+
+<img src="https://github.com/DanielBarrera-a/DOSW_Parcial_T1_DanielBarrera/blob/104d2976ceb26bad0d615827f567a7c81eb90e06/docs/images/evidenciaMision3.png">
+
+
