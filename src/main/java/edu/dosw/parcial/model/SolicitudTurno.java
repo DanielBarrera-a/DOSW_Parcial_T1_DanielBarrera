@@ -1,4 +1,4 @@
-package com.dosw.bobsbarber.model;
+package edu.dosw.parcial.model;
 
 import java.util.List;
 
@@ -12,7 +12,7 @@ public class SolicitudTurno {
     private final String nombreBarberoPreferido; // puede ser null = "Sin preferencia"
     private final TipoPasarela pasarelaSeleccionada;
 
-    // Se completan a medida que la cadena avanza
+    // aca se completan a medida que la cadena avanza
     private Barbero barberoAsignado;
     private double totalCalculado;
 

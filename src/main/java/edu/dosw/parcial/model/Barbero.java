@@ -1,4 +1,4 @@
-package com.dosw.bobsbarber.model;
+package edu.dosw.parcial.model;
 
 import java.util.EnumSet;
 import java.util.Set;
@@ -25,6 +25,7 @@ public class Barbero {
     }
 
     public boolean tieneEspecialidad(Especialidad especialidad) {
+
         return especialidades.contains(especialidad);
     }
 

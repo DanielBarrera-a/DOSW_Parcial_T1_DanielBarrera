@@ -1,28 +1,29 @@
-package com.dosw.bobsbarber.sistema;
+package edu.dosw.parcial.sistema;
 
 import com.dosw.bobsbarber.model.ResultadoTurno;
 import com.dosw.bobsbarber.model.ResultadoValidacion;
 import com.dosw.bobsbarber.model.SolicitudTurno;
-import com.dosw.bobsbarber.validation.Validador;
-import com.dosw.bobsbarber.validation.ValidadorBarbero;
-import com.dosw.bobsbarber.validation.ValidadorDatosCliente;
-import com.dosw.bobsbarber.validation.ValidadorFranja;
-import com.dosw.bobsbarber.validation.ValidadorPasarela;
-import com.dosw.bobsbarber.validation.ValidadorServicio;
+import com.dosw.bobsbarber.validation.*;
 
 import java.util.ArrayList;
 import java.util.List;
 
+
 /**
- * Orquesta el procesamiento de un turno a traves de la cadena de
- * responsabilidad (RF-01).
+ * Esta clase se encarga de mover un turno por toda la cadena de
+ * validaciones, o sea la parte que revisa que la franja este libre,
+ * que haya un barbero disponible, que los datos del cliente esten
+ * bien, que el servicio exista y que la pasarela de pago este activa,
+ * antes de aprobar el turno
  *
- * PENDIENTE (RF-02): cuando un turno sea aprobado por todas las
- * validaciones, el siguiente paso es invocar el Adapter de la pasarela
- * de pago seleccionada para procesar el cobro y normalizar la
- * respuesta a {payment_Id, estado, mensaje}. Esa parte aun no esta
- * implementada.
+ * Pendiente: cuando un turno pase todas esas validaciones, lo que
+ * sigue es cobrar con la pasarela que el cliente eligio y devolver el
+ * resultado del pago. Esa parte todavia no esta hecha cabe aclarar porque no me dio el tiempo
  */
+
+
+
+
 public class SistemaTurnos {
 
     private final ContextoSistema contexto;

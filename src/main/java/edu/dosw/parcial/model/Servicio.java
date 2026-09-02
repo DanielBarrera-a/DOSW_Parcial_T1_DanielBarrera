@@ -1,4 +1,4 @@
-package com.dosw.bobsbarber.model;
+package edu.dosw.parcial.model;
 
 public class Servicio {
 

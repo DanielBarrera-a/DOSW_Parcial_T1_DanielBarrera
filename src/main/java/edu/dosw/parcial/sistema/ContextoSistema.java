@@ -1,22 +1,19 @@
-package com.dosw.bobsbarber.sistema;
+package edu.dosw.parcial.sistema;
 
 import com.dosw.bobsbarber.model.Barbero;
 import com.dosw.bobsbarber.model.DiaSemana;
 import com.dosw.bobsbarber.model.Servicio;
 import com.dosw.bobsbarber.model.TipoPasarela;
 
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.HashSet;
-import java.util.List;
-import java.util.Map;
-import java.util.Set;
+import java.util.*;
 
 /**
- * Contiene el "estado del negocio" que las validaciones de la cadena
- * necesitan consultar: catalogo de servicios, barberos, ocupacion de
- * franjas horarias y pasarelas activas.
+ * Aqui se guarda toda la info que el negocio necesita para funcionar:
+ * los servicios que se ofrecen, los barberos, que horarios ya estan
+ * llenos y que pasarelas de pago estan activas. Las validaciones de
+ * la cadena consultan esto para saber si pueden aprobar o no un turno
  */
+
 public class ContextoSistema {
 
     public static final int MAX_CLIENTES_POR_FRANJA = 3;

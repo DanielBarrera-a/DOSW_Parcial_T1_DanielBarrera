@@ -1,10 +1,6 @@
-package com.dosw.bobsbarber.validation;
+package edu.dosw.parcial.validation;
 
-import com.dosw.bobsbarber.model.Barbero;
-import com.dosw.bobsbarber.model.Especialidad;
-import com.dosw.bobsbarber.model.ResultadoValidacion;
-import com.dosw.bobsbarber.model.Servicio;
-import com.dosw.bobsbarber.model.SolicitudTurno;
+import com.dosw.bobsbarber.model.*;
 import com.dosw.bobsbarber.sistema.ContextoSistema;
 
 import java.util.EnumSet;
